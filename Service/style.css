@@ -1,0 +1,147 @@
+.head1 {
+    width: auto;
+    height: 80px;
+    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+}
+
+.head1 li {
+    margin-top: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.head1 a {
+    color: black;
+    font-size: 20px;
+}
+
+.head1 #service {
+    color: #E1693B;
+}
+
+.head1 img {
+    width: 180px;
+    height: 115px;
+}
+
+.nav-link:hover {
+    color: #E1693B;
+}
+
+#floatNav {
+    position: absolute;
+    width: 740px;
+    height: 120px;
+    background: #FFF3ED;
+    border-radius: 75px;
+    border-style: outset;
+    border-color: #DB3832;
+    stroke: #DB3832;
+    margin-top: 150px;
+    margin-left: 390px;
+
+}
+
+#section1 {
+    background-image: url("/Assets/bgAbout2.png");
+    background-size: cover;
+    height: 750px;
+}
+
+#section1 h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.divider {								
+    display: table; 
+    font-size: 24px; 
+    text-align: center; 
+    width: 75%; 						
+    margin: 40px auto;					
+}
+
+.divider span { display: table-cell; position: relative; }
+
+.divider span:first-child, .divider span:last-child {
+    width: 50%;
+    top: 20px;							
+    -moz-background-size: 100% 2px; 	
+    background-size: 100% 2px; 			
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
+.divider span:first-child {				
+    
+    background-image: -webkit-linear-gradient(180deg, transparent, #000);
+    background-image: -moz-linear-gradient(180deg, transparent, #000);
+    background-image: -o-linear-gradient(180deg, transparent, #000);
+    background-image: linear-gradient(90deg, transparent, #000);
+}
+.divider span:nth-child(2) {
+    color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
+}
+.divider span:last-child {				
+    background-image: -webkit-linear-gradient(180deg, #000, transparent);
+    background-image: -moz-linear-gradient(180deg, #000, transparent);
+    background-image: -o-linear-gradient(180deg, #000, transparent);
+    background-image: linear-gradient(90deg, #000, transparent);
+}
+
+#section1 .btn {
+    margin-left: 130px;
+    background: linear-gradient(90deg, #DA3331 25%, #E1683B 64.58%, #E58440 100%);
+}
+
+#section2 .card {
+    width: 200px;
+    height: 500px;
+    background: #EC9A6E;
+    border-radius: 20px;
+}
+
+#section2 .btn-primary {
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(90deg, #DA3331 25%, #E1683B 64.58%, #E58440 100%);
+    border-radius: 20px;
+    border-color: #E1693B;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+
+}
+
+.img1 {
+    margin: 15px;
+    width:100px;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: 42px;
+    margin-bottom: 70px;
+}
+
+.img2 {
+    margin: 15px;
+    width: 170px;
+    height: 180px;
+}
+
+.c1 {
+    margin-left: 80px;
+}
+
+.c2 {
+    margin-left: 74px;
+}
+
+
+
+
+.footer {
+    width: auto;
+    height: 60px;
+    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+    margin-top: 70px;
+}

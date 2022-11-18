@@ -1,0 +1,57 @@
+.head1 {
+    width: auto;
+    height: 80px;
+    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+}
+
+.head1 li {
+    margin-top: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.head1 a {
+    color: black;
+    font-size: 20px;
+}
+
+.head1 #service {
+    color: #E1693B;
+}
+
+.head1 img {
+    width: 180px;
+    height: 115px;
+}
+
+.nav-link:hover {
+    color: #E1693B;
+}
+
+#floatNav {
+    position: absolute;
+    width: 740px;
+    height: 120px;
+    background: #FFF3ED;
+    border-radius: 75px;
+    border-style: outset;
+    border-color: #DB3832;
+    stroke: #DB3832;
+    margin-top: 150px;
+    margin-left: 390px;
+
+}
+
+#section1 {
+    background-image: url("/Assets/bgAbout2.png");
+    background-size: cover;
+    height: 750px;
+}
+
+
+.footer {
+    width: auto;
+    height: 60px;
+    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+    margin-top: 70px;
+}
