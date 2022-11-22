@@ -45,6 +45,7 @@
     background-image: url("Assets/bg1.png");
     background-size: cover;
     height: 690px;
+    background-attachment: fixed;
 }
 
 #section1 p {
