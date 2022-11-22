@@ -38,7 +38,6 @@
     border-color: #DB3832;
     stroke: #DB3832;
     margin-top: 150px;
-    margin-left: 390px;
 
 }
 
@@ -85,15 +84,6 @@
 .imgC img {
     width: 100px;
     height: 80px;
-}
-
-
-.c1 {
-    margin-left: 120px;
-}
-
-.c2 {
-    margin-left: 60px;
 }
 
 .divider {								

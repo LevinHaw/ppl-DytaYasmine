@@ -55,19 +55,23 @@
 .text1{
     margin-top: 130px;
     width: max-content;
-    margin-left: 610px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .text2{
     margin-top: 40px;
     width: max-content;
-    margin-left: 460px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text3{
     margin-top: 10px;
     width: max-content;
-    margin-left: 190px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-primary {
@@ -86,8 +90,8 @@
 
 .img-article {
     width: 60%;
-    margin-left: 250px;
-    margin-top: 30px;
+    margin-top: 50px;
+    
 }
 
 #section2 h1 {
@@ -112,7 +116,6 @@
     width: 60%;
     height: 80%;
     margin-top: 50px;
-    margin-left: 30px;
 }
 
 .footer {
