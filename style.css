@@ -30,8 +30,8 @@
 
 #floatNav {
     position: absolute;
-    /* width: 20em;
-    height: 120px; */
+    /* width: 20em; */
+    height: 120px;
     background: #FFF3ED;
     border-radius: 75px;
     border-style: outset;
@@ -127,7 +127,7 @@
     margin-top: 70px;
 }
 
-@media (max-width: 992px){
+@media (max-width: 900px){
     #floatNav{
         display: none;
     }
