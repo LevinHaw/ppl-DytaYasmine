@@ -44,7 +44,7 @@
 #section1 {
     background-image: url("Assets/bg1.png");
     background-size: cover;
-    height: 690px;
+    height: 91.2vh;
     background-attachment: fixed;
 }
 
@@ -82,7 +82,7 @@
     background: linear-gradient(90deg, #DA3331 25%, #E1683B 64.58%, #E58440 100%);
     border-radius: 20px;
     border-color: #E1693B;
-    margin-top: 200px;
+    margin-top: 8em;
 
 }
 
@@ -130,6 +130,14 @@
 @media (max-width: 900px){
     #floatNav{
         display: none;
+    }
+
+    .text1{
+        margin-top: 30px;
+    }
+
+    .btn-primary{
+        margin-top: 3em;
     }
     /* nanti bikin class baru buat side bar */
 }

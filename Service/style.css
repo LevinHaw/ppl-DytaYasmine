@@ -30,7 +30,7 @@
 
 #floatNav {
     position: absolute;
-    width: 740px;
+    /* width: 20em; */
     height: 120px;
     background: #FFF3ED;
     border-radius: 75px;
@@ -38,13 +38,12 @@
     border-color: #DB3832;
     stroke: #DB3832;
     margin-top: 150px;
-
 }
 
 #section1 {
     background-image: url("/Assets/bgAbout2.png");
     background-size: cover;
-    height: 750px;
+    /* height: 750px; */
     background-attachment: fixed;
 }
 
@@ -139,12 +138,19 @@
     margin-right: auto;
 }
 
-
-
-
 .footer {
     width: auto;
     height: 60px;
     background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
     margin-top: 70px;
+}
+
+@media (max-width: 900px){
+    #floatNav{
+        display: none;
+    }
+    #section1 h1{
+        margin-top: 30px;
+    }
+    /* nanti bikin class baru buat side bar */
 }
