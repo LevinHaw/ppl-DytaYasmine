@@ -16,8 +16,39 @@
   <body>
     <!-- Header -->
     <div class="head1">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
       <nav class="navbar navbar-expand-md justify-content-center">
         <!-- Navbar -->
+
+        <!-- Sidebar-->
+        <div class="container-fluid">
+          <div class="sidebar">
+            <input type="checkbox" id="openSideMenu" class="openSideMenu" />
+            <label for="openSideMenu" class="menuIconToggle">
+              <div class="hamb-line dia part-1"></div>
+              <div class="hamb-line hor"></div>
+              <div class="hamb-line dia part-2"></div>
+            </label>
+            <nav class="hamburger">
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/About">About</a></li>
+                <li><a href="/Product">Product</a></li>
+                <li><a href="/Service">Service</a></li>
+                <li><a href="/Gallery">Gallery</a></li>
+                <li><a href="/Contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <!-- Sidebar-->
+
         <nav id="floatNav" class="navbar navbar-expand-sm">
           <div class="container-fluid">
             <ul class="nav flex-row nav-justified">
@@ -56,14 +87,17 @@
       </div>
       <div class="container">
         <div class="row mx-0 justify-content-center mt-3">
-          <div class="col-md-7 col-lg-5 px-lg-2 col-xl-4 px-xl-0 px-xxl-3">
+          <div class="col-md-7 col-lg-5 px-lg-2 col-xl-4 px-xl-0 px-xxl-3 py-5">
             <form
               method="POST"
               class="w-100 rounded-1 p-4 border bg-white"
               enctype="multipart/form-data"
             >
+            <label class="d-block mb-4">
+              <span class="form-label d-block text-center" style="font-size: 20px;">Form Testimoni</span>
+            </label>
               <label class="d-block mb-4">
-                <span class="form-label d-block">Your name</span>
+                <span class="form-label d-block">Nama</span>
                 <input
                   name="name"
                   type="text"
@@ -73,7 +107,7 @@
               </label>
 
               <label class="d-block mb-4">
-                <span class="form-label d-block">Email address</span>
+                <span class="form-label d-block">Alamat Email</span>
                 <input
                   name="email"
                   type="email"
@@ -83,12 +117,12 @@
               </label>
 
               <label class="d-block mb-4">
-                <span class="form-label d-block">Receipt</span>
+                <span class="form-label d-block">Gambar</span>
                 <input name="receipt" type="file" class="form-control" />
               </label>
 
               <label class="d-block mb-4">
-                <span class="form-label d-block">What's wrong?</span>
+                <span class="form-label d-block">Saran atau komentar</span>
                 <textarea
                   name="message"
                   class="form-control"

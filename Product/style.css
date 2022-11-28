@@ -66,8 +66,9 @@
 .card[data-radius="none"] {
     border-radius: 0px;
 }
+
 .card {
-    height: 300px;
+    height: auto;
     margin-top: 50px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
@@ -83,6 +84,7 @@
     color: #FFFFFF;
 }
 .card.card-just-text .content {
+    height: 350px;
     padding: 50px 65px;
     text-align: center;
 }
@@ -235,3 +237,143 @@ a:hover, a:focus {
     }
     /* nanti bikin class baru buat side bar */
 }
+
+@media (min-width: 900px){
+    .sidebar{
+        display: none;
+    }
+}
+
+.sidebar {
+    width: auto;
+    height: auto;
+    
+}
+
+html, body {
+    overflow-x: hidden
+  }
+
+.hamburger {
+    height: auto;
+    position:absolute;
+    left: 0;
+    width: 320px;
+    margin-top: 70px;
+    transform: translateX(-320px);
+    transition: transform 260ms ease-in-out;
+    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+    border-left: 1px solid #eee;
+}
+
+ .sidebar ul {
+    margin:0;
+    padding:0;
+    border-top: 1px solid #eee;
+  }
+
+.sidebar ul>li {
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    transition: .25s
+  }
+.sidebar ul>li span {
+    display: block;
+    font-size: 14px;
+    color: #353535;
+  }
+.sidebar ul>li a {
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+.sidebar ul>li:hover {
+    background-color: #dddddd;
+  }
+.sidebar li#nav-signup {
+    list-style: none;
+    background-color: #00B2D3;
+  }
+.sidebar ul>li#nav-signup span {
+    color: #00B2D3;
+  }
+.sidebar ul>li#nav-signup a {
+    color: #ffffff;
+  }
+.sidebar ul>li#nav-signup:hover {
+    background-color: #006375;
+  }
+  input[type="checkbox"]:checked ~ nav {
+    transform: translateX(0);
+    z-index: 40;
+  }
+  input[type=checkbox] {
+    box-sizing: border-box;
+    display: none;
+    transition: all 0.25s;
+  }
+  .menuIconToggle {
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 40;
+    height: 100%;
+    width: 100%;
+    top: 35px;
+    left: 30px;
+    height: 22px;
+    width: 22px;
+    transition: all 0.3s;
+  }
+  .hamb-line {
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #444;
+    transition: all 0.25s;
+  }
+  .hor {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+  }
+  .dia.part-1 {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    transition: all .25s;
+  }
+  .dia.part-2 {
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+    transition: all .25s;
+  }
+  input[type=checkbox]:checked ~ .menuIconToggle > .hor {
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all .25s;
+  }
+  input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-1 {
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+    transition: all .25s;
+  }
+  input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-2 {
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+    transition: all .25s;
+  }
