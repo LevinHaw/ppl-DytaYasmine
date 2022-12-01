@@ -1,0 +1,35 @@
+.head1 {
+    width: auto;
+    height: auto;
+    min-height: 80px;
+    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+}
+
+.btn-color{
+    background-color: #0e1c36;
+    color: #fff;
+    
+  }
+  
+  .profile-image-pic{
+    height: 200px;
+    width: 200px;
+    object-fit:fill;
+  }
+  
+  
+  
+  .cardbody-color{
+    background-color: #E1693B;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+.footer {
+    width: auto;
+    height: 60px;
+    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+    margin-top: 70px;
+}
