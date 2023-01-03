@@ -1,282 +1,296 @@
 .head1 {
-    width: auto;
-    height: 80px;
-    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+  width: auto;
+  height: 80px;
+  background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
 }
 
 .head1 li {
-    margin-top: 32px;
-    margin-left: 5px;
-    margin-right: 5px;
+  margin-top: 32px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .head1 a {
-    color: black;
-    font-size: 20px;
+  color: black;
+  font-size: 20px;
 }
 
 .head1 #gallery {
-    color: #E1693B;
+  color: #E1693B;
 }
 
 .head1 img {
-    width: 180px;
-    height: 115px;
+  width: 180px;
+  height: 115px;
 }
 
 .nav-link:hover {
-    color: #E1693B;
+  color: #E1693B;
 }
 
 #floatNav {
-    position: absolute;
-    /* width: 20em; */
-    height: 120px;
-    background: #FFF3ED;
-    border-radius: 75px;
-    border-style: outset;
-    border-color: #DB3832;
-    stroke: #DB3832;
-    margin-top: 150px;
+  position: absolute;
+  /* width: 20em; */
+  height: 120px;
+  background: #FFF3ED;
+  border-radius: 75px;
+  border-style: outset;
+  border-color: #DB3832;
+  stroke: #DB3832;
+  margin-top: 150px;
 
 }
 
 #section1 {
-    background-image: url("/Assets/bgAbout2.png");
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url('../Assets/bgAbout2.png');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #section1 h1 {
-    color: white;
-    font-size: 50px;
-    margin-top: 100px;
+  color: white;
+  font-size: 50px;
+  margin-top: 100px;
 }
 
 .card{
-    width: 300px;
-    height: 420px;
-    margin-left: auto;
-    margin-right: auto;
-    border:none;
+  width: 300px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  border:none;
 }
 
 .user-content {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .user-content .text1{
-    margin-top:70px;
-    font-size:15px;
+  margin-top:70px;
+  font-size:15px;
 
 }
 
 .user-content .text2{
-    margin-top:70px;
-    font-size:15px;
+  margin-top:70px;
+  font-size:15px;
 
 }
 
 .user-content .text3{
-    margin-top:70px;
-    font-size:15px;
+  margin-top:70px;
+  font-size:15px;
 
 }
 
 .imgC img {
-    width: 100px;
-    height: 80px;
+  width: 100px;
+  height: 80px;
 }
 
 .divider {								
-    display: table; 
-    font-size: 24px; 
-    text-align: center; 
-    width: 75%; 						
-    margin: 40px auto;					
+  display: table; 
+  font-size: 24px; 
+  text-align: center; 
+  width: 75%; 						
+  margin: 40px auto;					
 }
 
 .divider span { display: table-cell; position: relative; }
 
 .divider span:first-child, .divider span:last-child {
-    width: 50%;
-    top: 20px;							
-    -moz-background-size: 100% 2px; 	
-    background-size: 100% 2px; 			
-    background-position: 0 0, 0 100%;
-    background-repeat: no-repeat;
+  width: 50%;
+  top: 20px;							
+  -moz-background-size: 100% 2px; 	
+  background-size: 100% 2px; 			
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
 }
 .divider span:first-child {				
-    
-    background-image: -webkit-linear-gradient(180deg, transparent, #000);
-    background-image: -moz-linear-gradient(180deg, transparent, #000);
-    background-image: -o-linear-gradient(180deg, transparent, #000);
-    background-image: linear-gradient(90deg, transparent, #000);
+  
+  background-image: -webkit-linear-gradient(180deg, transparent, #000);
+  background-image: -moz-linear-gradient(180deg, transparent, #000);
+  background-image: -o-linear-gradient(180deg, transparent, #000);
+  background-image: linear-gradient(90deg, transparent, #000);
 }
 .divider span:nth-child(2) {
-    color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
+  color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
 }
 .divider span:last-child {				
-    background-image: -webkit-linear-gradient(180deg, #000, transparent);
-    background-image: -moz-linear-gradient(180deg, #000, transparent);
-    background-image: -o-linear-gradient(180deg, #000, transparent);
-    background-image: linear-gradient(90deg, #000, transparent);
+  background-image: -webkit-linear-gradient(180deg, #000, transparent);
+  background-image: -moz-linear-gradient(180deg, #000, transparent);
+  background-image: -o-linear-gradient(180deg, #000, transparent);
+  background-image: linear-gradient(90deg, #000, transparent);
 }
 
 
 .footer {
-    width: auto;
-    height: 60px;
-    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
-    margin-top: 70px;
+  width: auto;
+  height: 60px;
+  background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+  margin-top: 70px;
 }
 
 @media (max-width: 900px){
-    #floatNav{
-        display: none;
-    }
-    #section1 h1{
-        margin-top: 30px;
-    }
-    /* nanti bikin class baru buat side bar */
+  #floatNav{
+      display: none;
+  }
+  #section1 h1{
+      margin-top: 30px;
+  }
+  /* nanti bikin class baru buat side bar */
 }
 
 @media (min-width: 900px){
-    .sidebar{
-        display: none;
-    }
+  .sidebar{
+      display: none;
+  }
 }
 
 .sidebar {
-    width: auto;
-    height: auto;
-    
+  width: auto;
+  height: auto;
+  
 }
 
 html, body {
-    overflow-x: hidden
-  }
-
-.hamburger {
-    height: auto;
-    position:absolute;
-    left: 0;
-    width: 320px;
-    margin-top: 70px;
-    transform: translateX(-320px);
-    transition: transform 260ms ease-in-out;
-    background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
-    border-left: 1px solid #eee;
+  overflow-x: hidden
 }
 
- .sidebar ul {
-    margin:0;
-    padding:0;
-    border-top: 1px solid #eee;
-  }
+.hamburger {
+  height: auto;
+  position:absolute;
+  left: 0;
+  width: 320px;
+  margin-top: 70px;
+  transform: translateX(-320px);
+  transition: transform 260ms ease-in-out;
+  background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
+  border-left: 1px solid #eee;
+}
+
+.sidebar ul {
+  margin:0;
+  padding:0;
+  border-top: 1px solid #eee;
+}
 
 .sidebar ul>li {
-    list-style: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 20px;
-    cursor: pointer;
-    border-bottom: 1px solid #eee;
-    transition: .25s
-  }
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: .25s
+}
 .sidebar ul>li span {
-    display: block;
-    font-size: 14px;
-    color: #353535;
-  }
+  display: block;
+  font-size: 14px;
+  color: #353535;
+}
 .sidebar ul>li a {
-    color: #353535;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-  }
+  color: #353535;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
 .sidebar ul>li:hover {
-    background-color: #dddddd;
-  }
+  background-color: #dddddd;
+}
 .sidebar li#nav-signup {
-    list-style: none;
-    background-color: #00B2D3;
-  }
+  list-style: none;
+  background-color: #00B2D3;
+}
 .sidebar ul>li#nav-signup span {
-    color: #00B2D3;
-  }
+  color: #00B2D3;
+}
 .sidebar ul>li#nav-signup a {
-    color: #ffffff;
-  }
+  color: #ffffff;
+}
 .sidebar ul>li#nav-signup:hover {
-    background-color: #006375;
-  }
-  input[type="checkbox"]:checked ~ nav {
-    transform: translateX(0);
-    z-index: 40;
-  }
-  input[type=checkbox] {
-    box-sizing: border-box;
-    display: none;
-    transition: all 0.25s;
-  }
-  .menuIconToggle {
-    box-sizing: border-box;
-    cursor: pointer;
-    position: absolute;
-    z-index: 40;
-    height: 100%;
-    width: 100%;
-    top: 35px;
-    left: 30px;
-    height: 22px;
-    width: 22px;
-    transition: all 0.3s;
-  }
-  .hamb-line {
-    box-sizing: border-box;
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background-color: #444;
-    transition: all 0.25s;
-  }
-  .hor {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    position: relative;
-    float: left;
-    margin-top: 3px;
-  }
-  .dia.part-1 {
-    position: relative;
-    box-sizing: border-box;
-    float: left;
-    transition: all .25s;
-  }
-  .dia.part-2 {
-    box-sizing: border-box;
-    position: relative;
-    float: left;
-    margin-top: 3px;
-    transition: all .25s;
-  }
-  input[type=checkbox]:checked ~ .menuIconToggle > .hor {
-    box-sizing: border-box;
-    opacity: 0;
-    transition: all .25s;
-  }
-  input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-1 {
-    box-sizing: border-box;
-    transform: rotate(135deg);
-    margin-top: 8px;
-    transition: all .25s;
-  }
-  input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-2 {
-    box-sizing: border-box;
-    transform: rotate(-135deg);
-    margin-top: -9px;
-    transition: all .25s;
-  }
+  background-color: #006375;
+}
+input[type="checkbox"]:checked ~ nav {
+  transform: translateX(0);
+  z-index: 40;
+}
+input[type=checkbox] {
+  box-sizing: border-box;
+  display: none;
+  transition: all 0.25s;
+}
+.menuIconToggle {
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  z-index: 40;
+  height: 100%;
+  width: 100%;
+  top: 35px;
+  left: 30px;
+  height: 22px;
+  width: 22px;
+  transition: all 0.3s;
+}
+.hamb-line {
+  box-sizing: border-box;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #444;
+  transition: all 0.25s;
+}
+.hor {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+.dia.part-1 {
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  transition: all .25s;
+}
+.dia.part-2 {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+  transition: all .25s;
+}
+input[type=checkbox]:checked ~ .menuIconToggle > .hor {
+  box-sizing: border-box;
+  opacity: 0;
+  transition: all .25s;
+}
+input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-1 {
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 8px;
+  transition: all .25s;
+}
+input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-2 {
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -9px;
+  transition: all .25s;
+}
+
+#section2 img {
+  width: 400px;
+  height: 360px;
+  object-fit: cover;
+}
+
+#section2 {
+  background-color: #FFF3ED;
+}
+
+
+
+

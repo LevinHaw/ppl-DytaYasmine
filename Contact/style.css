@@ -41,9 +41,8 @@
 
 }
 #section1 {
-    background-image: url("/Assets/bgAbout2.png");
+    background-image: url('../Assets/bgAbout2.png');
     background-size: cover;
-    /* height: 750px; */
     background-attachment: fixed;
 }
 
@@ -54,18 +53,17 @@
 }
 
 #section1 .card {
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    /* width: 700px;
-    height: 500px; */
 }
 
 
 
 #section1 li {
     margin: 20px;
-    text-align: justify;
+    font-size: 18px;
 }
 
 #section1 .title1 {
@@ -107,14 +105,8 @@
     background-image: linear-gradient(90deg, #000, transparent);
 }
 
-.btn-primary {
-    /* width: 350px; */
-    height: 45px;
-    background: #61ce70;
-    border-radius: 20px;
-    border-width: 2px;
-    border-color: #61ce70;
-
+#section2 {
+  background-color: #FFF3ED;
 }
 
 #section2 a {
@@ -286,4 +278,83 @@ html, body {
     transform: rotate(-135deg);
     margin-top: -9px;
     transition: all .25s;
+  }
+
+  #section2 .card {
+    width: 200px;
+    height: 500px;
+    background: #EC9A6E;
+    border-radius: 20px;
+  }
+  
+  #section2 .btn-primary {
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(90deg, #DA3331 25%, #E1683B 64.58%, #E58440 100%);
+    border-radius: 20px;
+    border-color: #E1693B;
+    margin-top: 5px;
+    font-size: 14px;
+  
+  }
+  
+  .img1 {
+    width:100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 55px;
+  }
+  
+  .img2 {
+    width: 170px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .img3 {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 55px;
+  }
+  
+  .c1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .c2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .btn-outline {
+    color: #4fbfa8;
+    background-color: #ffffff;
+    border-color: #4fbfa8;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  
+  .btn-outline {
+    color: #4fbfa8;
+    background-color: #ffffff;
+    border-color: #4fbfa8;
+    font-weight: bold;
+    border-radius: 0;
+  }
+  
+  .btn-outline:hover,
+  .btn-outline:active,
+  .btn-outline:focus,
+  .btn-outline.active {
+    background: #4fbfa8;
+    color: #ffffff;
+    border-color: #4fbfa8;
+    
   }
