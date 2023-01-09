@@ -2,7 +2,8 @@
 
 .head1 {
   width: auto;
-  height: 80px;
+  height: auto;
+  min-height: 80px;
   background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);
 }
 
@@ -39,7 +40,7 @@
   border-style: outset;
   border-color: #DB3832;
   stroke: #DB3832;
-  margin-top: 150px;
+  margin-top: 105px;
 }
 
 #section1 {
@@ -163,6 +164,9 @@
   #section2 .card {
     margin: 20px;
   }
+  #section1 h1{
+    margin-top: 30px;
+}
   
   /* nanti bikin class baru buat side bar */
 }
@@ -203,7 +207,7 @@ html, body {
   position:absolute;
   left: 0;
   width: 320px;
-  margin-top: 46px;
+  margin-top: 70px;
   transform: translateX(-320px);
   transition: transform 260ms ease-in-out;
   background: linear-gradient(90deg, #DA3231 0%, #E1693B 52.77%, #E58440 92.13%);

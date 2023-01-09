@@ -59,7 +59,7 @@ if (!isset($_SESSION['username'])) {
                         <a class="active-menu" href="index.php"><i class="fa fa-home fa-2x"></i> Dashboard </a>
                     </li>
                     <li>
-                        <a href="?page=pengguna&aksi="><i class="fa fa-user fa-2x"></i> Data Pengguna </a>
+                        <a href="?page=pengguna&aksi="><i class="fa fa-user fa-2x"></i> Data Admin </a>
                     </li>
                     <li>
                         <a href="?page=artikel&aksi="><i class="fa fa-user fa-2x"></i> Data Artikel </a>

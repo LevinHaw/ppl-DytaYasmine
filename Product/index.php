@@ -41,7 +41,7 @@ require_once('../Admin/Component/cardComponent.php');
               <li><a href="../About">About</a></li>
               <li><a href="Product">Product</a></li>
               <li><a href="../Article">Article</a></li>
-              <li><a href="../Gallery">Gallery</a></li>
+              <li><a href="../Testimoni">Testimoni</a></li>
               <li><a href="../Contact">Contact</a></li>
             </ul>
           </nav>
@@ -67,7 +67,7 @@ require_once('../Admin/Component/cardComponent.php');
               <a class="nav-link" href="../Article">Article</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../Gallery">Gallery</a>
+              <a class="nav-link" href="../Testimoni">Testimoni</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="../Contact">Contact</a>

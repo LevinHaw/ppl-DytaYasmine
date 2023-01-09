@@ -49,7 +49,7 @@ require_once('../admin/Component/ArticleCard.php');
               <li><a href="../About">About</a></li>
               <li><a href="../Product">Product</a></li>
               <li><a href="../Article">Article</a></li>
-              <li><a href="../Gallery">Gallery</a></li>
+              <li><a href="../Testimoni">Testimoni</a></li>
               <li><a href="../Contact">Contact</a></li>
             </ul>
           </nav>
@@ -72,10 +72,10 @@ require_once('../admin/Component/ArticleCard.php');
             </li>
             <img src="../Assets/Logo.png" />
             <li class="nav-item active">
-              <a id="service" class="nav-link" href="../Article">Article</a>
+              <a id="article" class="nav-link" href="../Article">Article</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../Gallery">Gallery</a>
+              <a class="nav-link" href="../Testimoni">Testimoni</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="../Contact">Contact</a>

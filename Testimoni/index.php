@@ -11,7 +11,7 @@ require_once('../Admin/Component/GalleryCard.php');
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-  <title>DYTA Yasmin - Gallery</title>
+  <title>DYTA Yasmin - Testimoni</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -39,7 +39,7 @@ require_once('../Admin/Component/GalleryCard.php');
               <li><a href="../About">About</a></li>
               <li><a href="../Product">Product</a></li>
               <li><a href="../Article">Article</a></li>
-              <li><a href="">Gallery</a></li>
+              <li><a href="">Testimoni</a></li>
               <li><a href="../Contact">Contact</a></li>
             </ul>
           </nav>
@@ -65,7 +65,7 @@ require_once('../Admin/Component/GalleryCard.php');
               <a class="nav-link" href="../Article">Article</a>
             </li>
             <li class="nav-item active">
-              <a id="gallery" class="nav-link" href="">Gallery</a>
+              <a id="Testimoni" class="nav-link" href="">Testimoni</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="../Contact">Contact</a>
