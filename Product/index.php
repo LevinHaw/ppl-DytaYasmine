@@ -37,12 +37,12 @@ require_once('../Admin/Component/cardComponent.php');
           </label>
           <nav class="hamburger">
             <ul>
-              <li><a href="../Homepage">Home</a></li>
-              <li><a href="../About">About</a></li>
-              <li><a href="Product">Product</a></li>
-              <li><a href="../Article">Article</a></li>
-              <li><a href="../Testimoni">Testimoni</a></li>
-              <li><a href="../Contact">Contact</a></li>
+              <li><a href="../homepage">Home</a></li>
+              <li><a href="../about">About</a></li>
+              <li><a href="product">Product</a></li>
+              <li><a href="../article">Article</a></li>
+              <li><a href="../testimoni">Testimoni</a></li>
+              <li><a href="../contact">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -54,23 +54,23 @@ require_once('../Admin/Component/cardComponent.php');
         <div class="container-fluid">
           <ul class="nav flex-row nav-justified">
             <li class="nav-item active">
-              <a class="nav-link" href="../Homepage">Home</a>
+              <a class="nav-link" href="../homepage">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../About">About</a>
+              <a class="nav-link" href="../about">About</a>
             </li>
             <li class="nav-item active">
               <a id="product" class="nav-link" href="">Product</a>
             </li>
             <img src="../Assets/Logo.png" />
             <li class="nav-item active">
-              <a class="nav-link" href="../Article">Article</a>
+              <a class="nav-link" href="../article">Article</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../Testimoni">Testimoni</a>
+              <a class="nav-link" href="../testimoni">Testimoni</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../Contact">Contact</a>
+              <a class="nav-link" href="../contact">Contact</a>
             </li>
           </ul>
         </div>

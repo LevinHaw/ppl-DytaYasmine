@@ -291,6 +291,27 @@ input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-2 {
   background-color: #FFF3ED;
 }
 
+.profile-img{
+  border: 5px solid #eee;
+  box-shadow: 0 0 0px 5px rgba(202, 113, 17, 0.5);
+  -moz-box-shadow: 0 0 0px 5px rgba(0, 0, 0, .5);
+  -o-box-shadow: 0 0 0px 5px rgba(0, 0, 0, .5);
+  -ms-box-shadow: 0 0 0px 5px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 0px 5px rgba(0, 0, 0, .5);
+  transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.profile-img:hover {
+  box-shadow: 0 0 0px 50px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 0 0px 50px rgba(0, 0, 0, .5);
+  -o-box-shadow: 0 0 0px 50px rgba(0, 0, 0, .5);
+  -ms-box-shadow: 0 0 0px 50px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 0px 50px rgba(0, 0, 0, .5);
+}
+
 
 
 

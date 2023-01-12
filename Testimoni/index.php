@@ -35,12 +35,12 @@ require_once('../Admin/Component/GalleryCard.php');
           </label>
           <nav class="hamburger">
             <ul>
-              <li><a href="../Homepage">Home</a></li>
-              <li><a href="../About">About</a></li>
-              <li><a href="../Product">Product</a></li>
-              <li><a href="../Article">Article</a></li>
+              <li><a href="../homepage">Home</a></li>
+              <li><a href="../about">About</a></li>
+              <li><a href="../product">Product</a></li>
+              <li><a href="../article">Article</a></li>
               <li><a href="">Testimoni</a></li>
-              <li><a href="../Contact">Contact</a></li>
+              <li><a href="../contact">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -52,23 +52,23 @@ require_once('../Admin/Component/GalleryCard.php');
         <div class="container-fluid">
           <ul class="nav flex-row nav-justified">
             <li class="nav-item active">
-              <a class="nav-link" href="../Homepage">Home</a>
+              <a class="nav-link" href="../homepage">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../About">About</a>
+              <a class="nav-link" href="../about">About</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../Product">Product</a>
+              <a class="nav-link" href="../product">Product</a>
             </li>
             <img src="../Assets/Logo.png" />
             <li class="nav-item active">
-              <a class="nav-link" href="../Article">Article</a>
+              <a class="nav-link" href="../article">Article</a>
             </li>
             <li class="nav-item active">
               <a id="Testimoni" class="nav-link" href="">Testimoni</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="../Contact">Contact</a>
+              <a class="nav-link" href="../contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -86,50 +86,53 @@ require_once('../Admin/Component/GalleryCard.php');
               <div class="col-md-4">
                 <div class="card p-3 text-center px-4 c1 justify-content-center">
                   <div class="user-image">
-                    <img src="../Assets/profile3.jpg" class="rounded-circle" width="100" height="150" />
+                    <img
+                      src="https://s16.picofile.com/file/8414366276/105_1055656_account_user_profile_avatar_avatar_user_profile_icon.png"
+                      alt="profile image" class="mx-auto d-block img-fluid rounded-circle profile-img" width="150"
+                      height="150">
                   </div>
 
                   <div class="user-content">
-                    <h5 class="mb-0">Lulu salsabila</h5>
-                    <span>Pembeli asal depok</span>
+                    <h5 class="mb-0">Indri</h5>
+
                     <p class="text1">
-                      Borong untuk acara 3 bulanan. Rasa enak, segar dan
-                      kualitas buah sangat bagus. thankyouuu
+                      Rujaknya serutnya seger bgt, sedeep, asem, manis n pedesnya passss bangeeet aplg kalo dimakan
+                      dingin2.. manteeep
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="card p-3 text-center px-4 c2">
-                  <div class="user-image">
-                    <img src="../Assets/profile2.jpg" class="rounded-circle" width="100" height="150" />
+              <div class="col">
+                <div class="card" width="900px">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img class="card-img-top" src="https://i.ibb.co/wQ28Qpt/deddy-corbuzier.jpg" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
                   </div>
+                  <div class="card-body text-center">
 
-                  <div class="user-content">
-                    <h5 class="mb-0">Aisyah witriana</h5>
-                    <span>Pembeli asal bogor</span>
-                    <p class="text2">
-                      Rasanya seger bgt asli.. semoga kedpnnya bisa pilih
-                      level pedesnya krn sy gak terlalu bisa mkn pedas.. tp
-                      overall enak n seger bgt
-                    </p>
+                    <h5 class="h5 font-weight-bold">Deddy Corbuzier, Ph.D</h5>
                   </div>
+                  <audio src="../Assets/testimoni_deddy.mp3" controls></audio>
                 </div>
               </div>
 
               <div class="col-md-4">
                 <div class="card p-3 text-center px-4 c3">
                   <div class="user-image">
-                    <img src="../Assets/profile4.jpg" class="rounded-circle" width="100" height="150" />
+                    <img
+                      src="https://s16.picofile.com/file/8414366276/105_1055656_account_user_profile_avatar_avatar_user_profile_icon.png"
+                      alt="profile image" class="mx-auto d-block img-fluid rounded-circle profile-img" width="150"
+                      height="150">
                   </div>
 
                   <div class="user-content">
-                    <h5 class="mb-0">Ferren jessica</h5>
-                    <span>Pembeli asal Jakarta</span>
+                    <h5 class="mb-0">Nafista</h5>
+
                     <p class="text3">
-                      Sukaaaa bangetttt.... tapi menurutku kurang pedes dikit.
-                      hehehe... mungkin bisa dibanyakin mangganya juga yah
+                      Fresh, segar, pedesnya pas. Mantulll lain kali pasti order lagi
                     </p>
                   </div>
                 </div>
