@@ -88,13 +88,11 @@
 
 }
 
-#section2 {
+body {
     background-color: #FFF3ED;
 }
 
-#section3 {
-  background-color: #FFF3ED;
-}
+
 
 .img-article {
     width: 60%;

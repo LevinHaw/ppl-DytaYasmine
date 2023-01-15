@@ -172,10 +172,6 @@ a:hover, a:focus {
     border-color: #DA3231;
 }
 
-#section2 {
-  background-color: #FFF3ED;
-}
-
 
 
 .footer {
@@ -494,5 +490,7 @@ html, body {
       background-color: #bbbbbb;
   }
   
-  
+  body {
+    background-color: #FFF3ED;
+}
   

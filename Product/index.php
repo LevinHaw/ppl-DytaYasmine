@@ -1,6 +1,6 @@
 <?php
 include "../admin/page/koneksi.php";
-require_once('../Admin/Component/cardComponent.php');
+require_once('../admin/Component/cardComponent.php');
 
 ?>
 

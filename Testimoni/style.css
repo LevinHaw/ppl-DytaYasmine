@@ -287,7 +287,7 @@ input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-2 {
   object-fit: cover;
 }
 
-#section2 {
+body {
   background-color: #FFF3ED;
 }
 

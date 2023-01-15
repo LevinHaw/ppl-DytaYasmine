@@ -1,5 +1,5 @@
 <?php
-require_once('../Admin/Component/GalleryCard.php');
+require_once('../admin/Component/GalleryCard.php');
 ?>
 
 <!DOCTYPE html>

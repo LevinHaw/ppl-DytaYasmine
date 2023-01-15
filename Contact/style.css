@@ -105,9 +105,11 @@
     background-image: linear-gradient(90deg, #000, transparent);
 }
 
-#section2 {
-  background-color: #FFF3ED;
+
+  body {
+    background-color: #FFF3ED;
 }
+
 
 #section2 a {
     margin-left: 5px;

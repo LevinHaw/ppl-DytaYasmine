@@ -88,9 +88,7 @@
 
 }
 
-#section2 {
-    background-color: white;
-}
+
 
 .img-article {
     width: 60%;
@@ -283,5 +281,9 @@ html, body {
     margin-top: -9px;
     transition: all .25s;
   }
+
+  body {
+    background-color: #FFF3ED;
+}
   
 

@@ -391,7 +391,9 @@ audio::-webkit-media-controls-play-button,
      }
 
 
-
+     body {
+      background-color: #FFF3ED;
+  }
 
 
 

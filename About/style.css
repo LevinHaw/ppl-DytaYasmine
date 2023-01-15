@@ -350,7 +350,6 @@ input[type=checkbox]:checked ~ .menuIconToggle > .dia.part-2 {
   transition: all .25s;
 }
 
-#section2 {
+body {
   background-color: #FFF3ED;
-  background-size: cover;
 }
