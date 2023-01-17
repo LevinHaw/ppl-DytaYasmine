@@ -53,7 +53,7 @@ if (!isset($_SESSION['username'])) {
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
                     <li class="text-center">
-                        <img src="assets/img/logo.png" class="user-image img-responsive" />
+                        <img src="assets/img/Logo.png" class="user-image img-responsive" />
                     </li>
                     <li>
                         <a class="active-menu" href="index.php"><i class="fa fa-home fa-2x"></i> Dashboard </a>
